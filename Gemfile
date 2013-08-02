@@ -11,7 +11,7 @@ gem 'rails', '3.2.13'
 gem 'activerecord-jdbcpostgresql-adapter'
 
 gem 'jruby-openssl'
-gem 'activerecord-jdbc-adapter', '~>1.3.0'
+gem 'activerecord-jdbc-adapter'
 gem 'activerecord-jdbcpostgresql-adapter'
 gem 'activerecord-jdbcderby-adapter'
 # gem 'activerecord-jdbcmysql-adapter'
