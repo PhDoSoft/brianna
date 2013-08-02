@@ -8,6 +8,7 @@ gem 'rails', '3.2.13'
 
 gem 'mysql', platform: :ruby
 
+gem 'activerecord-jdbcpostgresql-adapter'
 
 platforms :jruby do
   gem 'jruby-openssl'
