@@ -20,9 +20,10 @@ test:
       password: password
 
 production:
-      host: localhost
+      # host: localhost
       adapter: jdbc
-      driver: org.apache.derby.jdbc.EmbeddedDriver
-      url: jdbc:derby://localhost:1527/brianna_production;create=true
+      jndi: jdbc/PostgreDB
+      # driver: org.apache.derby.jdbc.EmbeddedDriver
+      # url: jdbc:derby://localhost:1527/brianna_production;create=true
       username: root
       password: password
