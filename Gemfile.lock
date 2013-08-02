@@ -23,9 +23,6 @@ GEM
       arel (~> 3.0.2)
       tzinfo (~> 0.3.29)
     activerecord-jdbc-adapter (1.2.9.1)
-    activerecord-jdbcsqlite3-adapter (1.2.9)
-      activerecord-jdbc-adapter (~> 1.2.9)
-      jdbc-sqlite3 (~> 3.7.2)
     activeresource (3.2.13)
       activemodel (= 3.2.13)
       activesupport (= 3.2.13)
@@ -47,7 +44,6 @@ GEM
       multi_json (~> 1.0)
     hike (1.2.3)
     i18n (0.6.1)
-    jdbc-sqlite3 (3.7.2.1)
     journey (1.0.4)
     jquery-rails (3.0.1)
       railties (>= 3.0, < 5.0)
@@ -113,7 +109,7 @@ PLATFORMS
   java
 
 DEPENDENCIES
-  activerecord-jdbcsqlite3-adapter
+  activerecord-jdbc-adapter
   coffee-rails (~> 3.2.1)
   jquery-rails
   jruby-openssl

@@ -3,7 +3,7 @@
 development:
       host: localhost
       adapter: jdbc
-      driver: org.apache.derby.jdbc.ClientDriver
+      driver: org.apache.derby.jdbc.EmbeddedDriver
       url: jdbc:derby://localhost:1527/brianna_development;create=true
       username: root
       password: password
@@ -14,7 +14,7 @@ development:
 test:
       host: localhost
       adapter: jdbc
-      driver: org.apache.derby.jdbc.ClientDriver
+      driver: org.apache.derby.jdbc.EmbeddedDriver
       url: jdbc:derby://localhost:1527/brianna_test;create=true
       username: root
       password: password
@@ -22,7 +22,7 @@ test:
 production:
       host: localhost
       adapter: jdbc
-      driver: org.apache.derby.jdbc.ClientDriver
+      driver: org.apache.derby.jdbc.EmbeddedDriver
       url: jdbc:derby://localhost:1527/brianna_production;create=true
       username: root
       password: password
